@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  dns-sync:
+    image:  maroessler/dns-sync:2025-02-08
+    build: .
